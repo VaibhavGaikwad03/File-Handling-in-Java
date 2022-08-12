@@ -30,6 +30,8 @@ class Copy
             }
 
             System.out.println("Copying finished...");
+            finobj.close();
+            foutobj.close();
         }
         catch(IOException obj)
         {
