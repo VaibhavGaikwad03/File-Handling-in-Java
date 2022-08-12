@@ -1,5 +1,5 @@
 /*
-Write a java program to accept two file name from user and check whether that file is regular or not.
+Write a java program to accept file name from user and check whether that file is regular or not.
 */
 
 import java.lang.*;
@@ -30,7 +30,7 @@ class Check_Regular
     {
         Scanner sobj = new Scanner(System.in);
 
-        System.out.println("Enter the first file name : ");
+        System.out.println("Enter the file name : ");
         String str = sobj.nextLine();
 
         CheckFile cobj = new CheckFile();
