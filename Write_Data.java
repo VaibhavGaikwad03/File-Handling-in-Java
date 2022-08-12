@@ -1,6 +1,5 @@
 /*
-Write a java program to accept file name from user and open that file and display the contents on screen.
-
+Write a java program to accept file name from user and open that file in write mode and write some data at the end of file.
 */
 
 import java.lang.*;
